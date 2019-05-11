@@ -41,7 +41,7 @@
     -destip   The destination IP that needs to be mapped
     -destport The destination port that needs to be mapped[OPTIONAL]
     ?         Print the option list
-```
+   ```
     - `start`: 该命令可以将已添加的端口映射信息都写入iptables规则中，主要在开机启动的时候使用，可以手动启动，也可以直接设置在开机启动文件中，让自动生效。
     - `add`: 在配置文件中添加一条映射规则，并立即生效，即直接写入iptables规则中
     - `clean`: 清除配置文件中的所有映射信息
